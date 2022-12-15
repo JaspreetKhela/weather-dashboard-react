@@ -234,7 +234,7 @@ export default class WeatherGrid extends React.Component {
 
     // Make a GET request to the OpenWeather API service to retrieve current weather and forecast data
     componentDidMount() {
-        // this.fetchWeatherData();
+        this.fetchWeatherData();
     }
 
     // Render the WeatherGrid class component

@@ -21,11 +21,11 @@ export default class HeaderMessage extends React.Component {
         <div>
           {/* Display the title as a header */}
           <Header as='h2' attached='top' textAlign='center' inverted>
-            Weather Data Application
+            Weather and News Data Application
           </Header>
           {/* Display the description as a segment */}
           <Segment attached textAlign='center' inverted>
-            Hello! Below, you can search for weather forecast data for a particular city.
+            Hello! Below, you can search for weather and news data for a particular region.
           </Segment>
         </div>
       )  
